@@ -17,7 +17,6 @@
     margin: auto;
 }
 
-
 :root{
     --font-family: 'Helvetica', sans-serif;
     --primary: #1bbd9c;
@@ -29,15 +28,11 @@ header{
     background-color: var(--secondary);
 }
 
-.bg_p{
+section:nth-child(odd){
     background-color: var(--primary);
 }
 
 .avatar{
     max-width: 220px;
-}
-
-.color_secondary{
-    color: var(--secondary);
 }
 
