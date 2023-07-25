@@ -3,7 +3,7 @@
 }
 
 .debug .star{
-    background-color: whitesmoke;
+    background-color: gray;
     height: 50px;
     width: 25%;
     margin: auto;
@@ -27,6 +27,10 @@ header{
 
 .avatar{
     max-width: 220px;
+}
+
+.color_secondary{
+    color: var(--secondary);
 }
 
 
