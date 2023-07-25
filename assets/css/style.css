@@ -2,6 +2,14 @@
     height: 75px;
 }
 
+.debug footer .top{
+    background-color: var(--secondary-light);
+}
+
+.debug footer .bottom{
+    background-color: var(--secondary);
+}
+
 .debug .star{
     background-color: gray;
     height: 50px;
@@ -14,7 +22,7 @@
     --font-family: 'Helvetica', sans-serif;
     --primary: #1bbd9c;
     --secondary: #2c3f51;
-    
+    --secondary-light: #3a556c;
 }
 
 header{
@@ -32,5 +40,4 @@ header{
 .color_secondary{
     color: var(--secondary);
 }
-
 
