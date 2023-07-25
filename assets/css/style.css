@@ -1,0 +1,32 @@
+.debug header{
+    height: 75px;
+}
+
+.debug .star{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 25%;
+    margin: auto;
+}
+
+
+:root{
+    --font-family: 'Helvetica', sans-serif;
+    --primary: #1bbd9c;
+    --secondary: #2c3f51;
+    
+}
+
+header{
+    background-color: var(--secondary);
+}
+
+.bg_p{
+    background-color: var(--primary);
+}
+
+.avatar{
+    max-width: 220px;
+}
+
+
