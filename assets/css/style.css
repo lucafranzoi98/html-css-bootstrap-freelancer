@@ -1,22 +1,3 @@
-.debug header{
-    height: 75px;
-}
-
-.debug footer .top{
-    background-color: var(--secondary-light);
-}
-
-.debug footer .bottom{
-    background-color: var(--secondary);
-}
-
-.debug .star{
-    background-color: gray;
-    height: 50px;
-    width: 25%;
-    margin: auto;
-}
-
 :root{
     --font-family: 'Helvetica', sans-serif;
     --primary: #1bbd9c;
@@ -24,7 +5,7 @@
     --secondary-light: #3a556c;
 }
 
-header{
+.bg_secondary{
     background-color: var(--secondary);
 }
 
@@ -36,3 +17,18 @@ section:nth-child(odd){
     max-width: 220px;
 }
 
+.line{
+    width: 15%;
+    max-width: 170px;
+    border: none;
+    border-top: 4px solid;
+    border-radius: 6px;
+}
+
+.debug footer .top{
+    background-color: var(--secondary-light);
+}
+
+.debug footer .bottom{
+    background-color: var(--secondary);
+}
