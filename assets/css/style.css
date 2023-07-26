@@ -5,12 +5,20 @@
     --secondary-light: #3a556c;
 }
 
+.bg_primary{
+    background-color: var(--primary);
+}
+
 .bg_secondary{
     background-color: var(--secondary);
 }
 
 section:nth-child(odd){
     background-color: var(--primary);
+}
+
+section:nth-child(even){
+    color: var(--secondary);
 }
 
 .avatar{
@@ -25,10 +33,36 @@ section:nth-child(odd){
     border-radius: 6px;
 }
 
-.debug footer .top{
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+
+footer .top{
     background-color: var(--secondary-light);
 }
 
-.debug footer .bottom{
+.social-icon{
+    border: 1px solid white;
+    width: 40px;
+    aspect-ratio: 1;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 0.25rem;
+}
+
+.social-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.freelance a{
+    color: var(--primary);
+}
+
+footer .bottom{
     background-color: var(--secondary);
 }
