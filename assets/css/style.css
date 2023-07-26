@@ -5,6 +5,10 @@
     --secondary-light: #3a556c;
 }
 
+nav{
+    height: 74px;
+}
+
 .bg_primary{
     background-color: var(--primary);
 }
@@ -22,12 +26,12 @@ section:nth-child(even){
 }
 
 .avatar{
-    max-width: 220px;
+    max-width: 200px;
 }
 
 .line{
     width: 15%;
-    max-width: 170px;
+    max-width: 150px;
     border: none;
     border-top: 4px solid;
     border-radius: 6px;
@@ -38,18 +42,17 @@ section:nth-child(even){
     box-shadow: none;
 }
 
-
 footer .top{
     background-color: var(--secondary-light);
 }
 
 .social-icon{
     border: 1px solid white;
-    width: 40px;
+    width: 45px;
     aspect-ratio: 1;
     position: relative;
     border-radius: 50%;
-    margin: 0 0.25rem;
+    margin: 0 0.35rem;
 }
 
 .social-icon i{
@@ -65,4 +68,37 @@ footer .top{
 
 footer .bottom{
     background-color: var(--secondary);
+}
+
+.copyright{
+    font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 3rem;
+    }
+
+    .jobs{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 2.5rem;
+    }
+
+    .footer-titles{
+        font-size: 1.25rem;
+    }
+
+    .w_900{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .w_750{
+        max-width: 750px;
+        margin: auto;
+    }
+    
 }
